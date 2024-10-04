@@ -21,4 +21,4 @@ JOIN OrderQuote oq ON o.id = oq.id
 JOIN Product p ON oq.product_id = p.id
 JOIN ProductMatrix pm ON oq.price_matrix_id = pm.id
 
-WHERE o.order_quotes = 'ORD001';  -- You can change this to the specific order number =)
+WHERE o.order_quotes = 'OR00001';  -- You can change this to the specific order number =)
