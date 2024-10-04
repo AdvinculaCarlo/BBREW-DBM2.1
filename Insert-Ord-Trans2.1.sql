@@ -1,10 +1,10 @@
 -- Order / Transaction data Insertion EXAMPLE
 
 INSERT INTO Orders (order_quotes, customer_name, user_id, subtotal, discounted_value, grandtotal, order_status)
-VALUES ('ORD001', 'John Doe', 1, 135.00, 15.00, 120.00, 'Complete');
+VALUES ('OR00001', 'CornelioJunior', 1, 135.00, 15.00, 120.00, 'Complete');
 
-/* 	order_quotes: Unique identifier for the order (e.g., "ORD001").
-	customer_name: Customer’s name ("John Doe").
+/* 	order_quotes: Unique identifier for the order (e.g., "OR00001").
+	customer_name: Customer’s name ("CornelioJunior").
 	user_id: ID of the user (assuming user ID = 1 for this example).
 	subtotal: Total cost of the products before discounts (135.00).
 	discounted_value: Total discount applied (15.00).
